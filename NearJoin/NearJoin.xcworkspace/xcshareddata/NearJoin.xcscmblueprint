@@ -1,0 +1,34 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : {
+
+    },
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : 0,
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6DCFAC5C-106A-481A-A63E-6AF6259785DC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : "NearJoin\/NearJoin\/OAuth2\/",
+    "b3aa69f0-f65c-a609-0a27-78855af037c1++2896" : "NearJoin\/NearJoin\/HTTPFetcher\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NearJoin",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NearJoin\/NearJoin.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gtm-oauth2.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22754eea-fc93-e339-b032-c1f495b90c16++2896"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gtm-http-fetcher.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b3aa69f0-f65c-a609-0a27-78855af037c1++2896"
+    }
+  ]
+}

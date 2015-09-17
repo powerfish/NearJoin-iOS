@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+@import GoogleMaps;
 
 @interface AppDelegate ()
 
@@ -14,9 +15,11 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [GMSServices provideAPIKey:@"AIzaSyAjQwOEmS7d3I_cEiR5x0cSpOSGUuaaPA0"];
+    
     return YES;
 }
 
@@ -40,6 +43,18 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (GTLServiceMyEvent *)myEventService {
+    static GTLServiceMyEvent *service = nil;
+    if (!service) {
+        service = [[GTLServiceMyEvent alloc] init];
+        
+        service.retryEnabled = YES;
+        
+        [GTMHTTPFetcher setLoggingEnabled:YES];
+    }
+    return service;
 }
 
 @end

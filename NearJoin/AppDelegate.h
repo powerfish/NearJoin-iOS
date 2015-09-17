@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTLMyEvent.h"
+#import "GTMHTTPFetcherLogging.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+
+- (GTLServiceMyEvent *)myEventService ;
 
 @end
 
